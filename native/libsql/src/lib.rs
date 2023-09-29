@@ -3,4 +3,4 @@ fn add(a: i64, b: i64) -> i64 {
     a + b
 }
 
-rustler::init!("Elixir.LibSQL", [add]);
+rustler::init!("Elixir.ExLibSQL", [add]);
